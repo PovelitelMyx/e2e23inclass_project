@@ -1,6 +1,7 @@
 from flask import Flask, request
 import joblib
 import numpy
+from sklearn.tree import DecisionTreeRegressor
 
 MODEL_PATH = 'mlmodels/model_rozmanov.pkl'
 SCALER_X_PATH = 'mlmodels/scaler_standard_x.pkl'
