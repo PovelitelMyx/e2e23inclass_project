@@ -3,7 +3,7 @@ import joblib
 import numpy
 from sklearn.tree import DecisionTreeRegressor
 
-MODEL_PATH = 'mlmodels/model_rozmanov.pkl'
+MODEL_PATH = 'mlmodels/model_DecisionTreeRegressor.pkl'
 SCALER_X_PATH = 'mlmodels/scaler_standard_x.pkl'
 SCALER_Y_PATH = 'mlmodels/scaler_standard_y.pkl'
 
